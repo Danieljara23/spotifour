@@ -1,5 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 body {
-  padding-top: 70px; 
+  padding-top: 70px;
+}
+.artist-container .thumbnail{
+  height: 290px;
+}
+.thumbnail img{
+  width: 250px;
+  height: 155px;
 }
