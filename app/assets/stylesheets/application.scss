@@ -6,7 +6,13 @@ body {
 .artist-container .thumbnail{
   height: 290px;
 }
-.thumbnail img{
+.artist-container .thumbnail button a {
+  color: white;
+}
+.artist-container .thumbnail img{
   width: 250px;
   height: 155px;
+}
+.show-container .col-md-3 img{
+  width: 100%;
 }
