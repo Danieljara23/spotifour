@@ -11,7 +11,7 @@
                 <img src="<%= album.image_url %>" >
                 <div class="caption">
                   <p><strong><%= album.name%></strong></p>
-                  <p><%= album.released_at.year%></p>
+                  <p><%= album.released_at.strftime("%Y")%></p>
                 </div>
               </div>
             </div>
